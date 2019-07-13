@@ -1,5 +1,33 @@
 body{
     background-image: url("images/Background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
+}
+h1{
+    color: #003b6f;
+    text-shadow: 2px white;
+    /*try a glow effect maybe?*/
+}
+#gif_frame{
+    margin-left: 30%;
+    margin-right: 30%;
+    height:450px ;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.topic{
+    margin:3px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
