@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     text-align: center;
 }
-h1{
+h1,h4{
     color: #003b6f;
     text-shadow: 2px white;
     /*try a glow effect maybe?*/
@@ -26,8 +26,8 @@ h1{
   background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #003b6f; 
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #0669c0; 
 }
