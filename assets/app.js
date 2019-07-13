@@ -34,5 +34,12 @@ $(document.body).on("click", ".topic", function () {
     })
 });
 $(document.body).on("click", "#addtopic", function () {
+    newtopic = $("#newtopic").val();
+    gallifrey.push(newtopic);
+    var i = gallifrey.length - 1;
+    var button = $("<button>" + gallifrey[i] + "</button>");
+    button.addClass("topic");
+    button.attr("data-value", gallifrey[i])
+    $("#buttons").append(button);
     //need to create an addtopic button and input form to add user topics
 })
